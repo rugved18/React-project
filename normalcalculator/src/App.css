@@ -1,0 +1,77 @@
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  padding: 20px;
+}
+
+.input {
+  background-color: #282c34;
+  color: white;
+  font-size: 2rem;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: right;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+button {
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 10px;
+  color: #333;
+  font-size: 1.8rem;
+  margin: 5px;
+  padding: 20px;
+  cursor: pointer;
+  flex: 1;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #d4d4d4;
+}
+
+button:active {
+  background-color: #c8c8c8;
+  
+}
+
+button:nth-child(4n) {
+  background-color: #ff9500;
+  color: white;
+}
+
+button:nth-child(4n):hover {
+  background-color: #e08a00;
+}
+
+button:nth-child(4n):active {
+  background-color: #cc7a00;
+}
+
+button.zero {
+  flex: 2;
+}
+
+.row {
+  display: flex;
+}
+
+button:focus {
+  outline: none;
+}
